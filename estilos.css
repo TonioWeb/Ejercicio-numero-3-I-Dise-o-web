@@ -1,0 +1,117 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-image: url(imagenes/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.contenedor_cabecera {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.contenedor_cabecera #logo i {
+	font-size: 30px;
+	color: #fff;
+	margin: 20px;
+	float: left;
+}
+
+.contenedor_cabecera #logo p{
+	float: left;
+	font-size: 20px;
+	color: #fff;
+	margin: 25px;
+}
+
+.contenedor_cabecera #parte_izquierda img {
+	width: 45px;
+	margin: 15px;
+	height: 45px;
+	float: right;
+	cursor: pointer;
+}
+
+.contenedor_cabecera #parte_izquierda li{
+	list-style: none;
+	display: inline-block;
+	margin: 26px;
+	cursor: pointer;
+	color: #fff;
+	float: right;
+}
+
+.parte_central {
+	border: 0px solid black;
+	margin-left: 15%;
+	overflow: hidden;
+	margin-top: calc(50vh - 200px);
+}
+
+.parte_central #titulo {
+	font-family: arial;
+	font-size: 60px;
+	color: #fff;
+}
+
+.parte_central #barra {
+	width: 5px;
+	margin-top: 35px;
+	height: 70px;
+	float: left;
+	border-radius: 10px;
+	border: 0px solid black;
+	background-color: #1CE7D2;
+}
+
+.parte_central #texto {
+	font-size: 15px;
+	width: 360px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 25px;
+}
+
+.parte_central #redes {
+	position: fixed;
+	cursor: pointer;
+	margin-left: 80%;
+	float: right;
+}
+
+.parte_central #redes i {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    height: 55px;
+}
+
+.parte_central #reproduccion1 {
+	width: 15%;
+	height: 35px;
+	margin-top: 145px; 
+	border-radius: 15px;
+	background-color: #F63A70;
+}
+
+.parte_central #reproduccion1 p{
+    text-align: center;
+    font-size: 25px
+}
+
+.parte_central #reproduccion2 {
+	font-size: 35px;
+	position: static; 
+	margin-left: 17%;
+	margin-top: -37px;
+	float: left;
+	cursor: pointer;
+}
