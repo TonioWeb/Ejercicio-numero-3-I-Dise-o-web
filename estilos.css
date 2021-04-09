@@ -56,6 +56,12 @@ body{
 	margin-top: calc(50vh - 200px);
 }
 
+@media only screen and (max-width:1000px){
+	.parte_central{
+		margin-top: calc(30vh - 200px);
+	}
+}
+
 .parte_central #titulo {
 	font-family: arial;
 	font-size: 60px;
